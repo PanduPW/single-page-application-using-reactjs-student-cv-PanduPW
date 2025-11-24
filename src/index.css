@@ -1,0 +1,169 @@
+/* ===== Base Global Style ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #111827; /* bg-gray-900 */
+  color: #e5e7eb; /* text-gray-200 */
+}
+
+/* Layout container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Titles */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #4b5563; /* gray-600 */
+  padding-bottom: .5rem;
+}
+
+/* ===== Profile Card ===== */
+.profile {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 4px solid #3b82f6; /* blue-500 */
+  margin-bottom: 1rem;
+
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.profile-headline {
+  color: #d1d5db;
+  font-size: 1rem;
+}
+
+.profile-bio,
+.profile-location {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.profile-portfolio {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.profile-portfolio:hover {
+  background-color: #2563eb;
+}
+
+/* ===== Skills Section ===== */
+.skills-section {
+  margin-top: 3rem;
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #4b5563; /* gray-600 */
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.skill-item {
+  background-color: #1f2937; /* gray-800 */
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.25);
+  transition: transform .2s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-3px);
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Progress bar */
+.progress-container {
+  background-color: #374151;
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #3b82f6;
+  height: 8px;
+  border-radius: 999px;
+}
+
+/* ===== Experiences Section ===== */
+.experience-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #4b5563; /* gray-600 */
+    padding-bottom: .5rem;
+    text-align: center;
+  }
+
+.experience-card {
+  background-color: #1f2937;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.experience-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: #d1d5db;
+}
+
+.experience-duration {
+  font-size: .9rem;
+  color: #9ca3af;
+}
+
+.experience-desc {
+  font-size: .9rem;
+  margin-top: 8px;
+  color: #d1d5db;
+}
